@@ -3,14 +3,9 @@ variable "ami" {
   default = "ami-0f3c7d07486cad139"
 }
 
-variable "instance_type" {
+variable "instance_name" {
   type = string
-  default = "t2.micro"
-}
-
-variable "sg_name" {
-  type = string
-  default = "allow_all"
+  default = "mongodb"
 }
 
 variable "tags" {

@@ -1,5 +1,6 @@
 resource "aws_security_group" "sg" {
   name = var.sg_name
+  
   ingress {
     description = "allowing all ports"
     from_port   = 0
